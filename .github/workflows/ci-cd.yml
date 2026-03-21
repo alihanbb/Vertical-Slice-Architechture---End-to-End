@@ -6,9 +6,6 @@ on:
       - master
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 env:
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/modular-monolith
 
