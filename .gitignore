@@ -45,3 +45,6 @@ logs/
 ## Coverage
 coverage.xml
 *.opencover.xml
+
+# Environment variables
+.env
